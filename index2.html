@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+   <link rel="stylesheet" href="estilo/style2.css">
+   
+</head>
+<body>
+    <main>
+
+        <h1 id="titulo">PESQUISA DE SATISFAÇÃO</h1>                
+        <form id="formulario">
+            <div class="flex-outer">
+
+              <div>
+                <label id="form" for="nome"><strong>Nome</strong></label>
+                <input class="entrada" type="text" id="nome" placeholder="Digite seu nome">
+              </div>
+              <p></p>
+
+              <div>
+                <label for="email"><strong>E-mail</strong></label>
+                <input class="entrada" type="email" id="email" placeholder="Digite seu e-mail">
+              </div>
+              <p></p>
+
+              <div>
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input class="entrada" type="number" id="telefone" placeholder="Digite seu telefone">
+              </div><p></p>
+
+              <div>
+                <label for="cpf"><strong>CPF</strong></label>
+                <input class="entrada" type="number" id="cpf" placeholder="Digite seu cpf">
+              </div> 
+
+                <div><p>
+                    <label> <strong>Data de Nascimento:</strong> <input type="date" name="nascimento" id="data-de-nascimento" ></label></p>
+                </div>             
+              
+              <div><p>
+
+                <label><strong>Sexo</strong>:
+                    <input name="masc" type="radio" value="masculino" />Masculino
+                </label>
+                <label>
+                    <input name="fem" type="radio" value="feminino" />Feminino
+                </label>
+                <label>
+                    <input name="outros" type="radio" value="outros"/>Outros
+                </label></p>
+                </div>
+
+                <div>
+                    <label for="email"><strong>Cidade</strong></label>
+                    <input class="entrada" type="text" id="cidade" placeholder="Digite a sua cidade">
+                  </div>
+
+                <div class="linha2"><p>
+
+                <label><strong>Estado</strong>:
+                    <select class="estado" name="estado" id="estado">
+                        <option>ES</option>                            
+                        <option>MG</option>
+                        <option>RJ</option>
+                        <option>SP</option>
+                    </select>
+                    </label></p>
+                 </div>
+
+                <div>
+                    <label><p>
+                        Defina seu nível de satisfação:<br><p></p>
+                    
+                    <label>
+                        <input name="ins" type="radio" value="insatisfeito" />Insatisfeito
+                    </label>
+
+                    <label>
+                        <input name="sas" type="radio" value="satisfeito" />Satisfeito
+                    </label>
+
+                    <label>
+                        <input name="ms" type="radio" value="muito-satisfeito" />Muito satisfeito
+                    </label></p>
+                
+                </div>
+
+                <div>
+                    <label for="message">Qual seria a sugestão</label>
+                    <textarea class="caixa-de-texto" rows="6" id="message" placeholder="Deixe-nos sua sugestão:"></textarea>
+                </div>
+
+                <div><p>
+                    <button class="submit" type="submit">Enviar</button><br></p>
+                </div>
+
+            </div>
+
+            <div>
+                <a href="https://www.moveissimonetti.com.br/" target="_blank"><img src="imagens/Logo_PNG.png" id="logo" alt="MS"></a>
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
