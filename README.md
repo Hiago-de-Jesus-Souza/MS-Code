@@ -1,5 +1,5 @@
 # MS-Code
-Teste proposto pela Móveis Simonette
+Teste proposto pela Móveis Simonetti
 
 Olá! meu nome é Hiago de Jesus Souza <br>
 Sou estudante, atualmente estudo as tecnologias HTML 5 e CSS 3 
